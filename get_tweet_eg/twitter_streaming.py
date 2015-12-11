@@ -26,13 +26,13 @@ else:
 
 print 'TweetKeywords are: ',TweetKeyword
 
-
+'''
 #Variables that contains the user credentials to access Twitter API 
-consumer_key = os.environ.get('TWITTER_API_KEY')
-consumer_secret =os.environ.get('TWITTER_API_SECRET')
-access_token = os.environ.get('TWITTER_ACCESS_TOKEN')
-access_token_secret = os.environ.get('TWITTER_ACCESS_TOKEN_SECRET')
-
+consumer_key = os.environ.get('9g5ozYSJcviR8X0Yjt069uZps')
+consumer_secret =os.environ.get('iQ3ZAfl6bizAaeft3CGzKAxPi4AkNVI2rBO0Iif3HkfKSg9xXy')
+access_token = os.environ.get('4373704648-EFvZkuxm4wxpnaMDkM2s5d6phBU4wPKeyMR38MC')
+access_token_secret = os.environ.get(' OMweBIjLsDMHx4VtQUTHuJDXLpoxzObMbUiYmDjOApzDj')
+'''
 
 #This is a basic listener that just prints received tweets to stdout.
 class StdOutListener(StreamListener):
